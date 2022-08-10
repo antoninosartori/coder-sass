@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  height: 80px;
+  width: 100vw;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #1ab3ff;
+}
+header nav a {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #eee;
+  margin-left: 50px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+header nav ul a {
+  padding: 5px 10px;
+  font-size: 30px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+header nav ul a:hover {
+  color: #1ab3ff;
+  background-color: #eee;
+  transition: 0.3s;
+}
+
+main {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  background: linear-gradient(0deg, rgb(144, 217, 253) 0%, rgb(255, 255, 255) 100%, rgb(0, 212, 255) 100%);
+  padding-top: 90px;
+}
+main h1 {
+  font-family: "Roboto", sans-serif;
+  color: #1ab3ff;
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+main h1 span {
+  font-weight: 300;
+  transition: 0.3s;
+}
+main h1 span:hover {
+  font-weight: 700;
+  transition: 0.3s;
+}
+main div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 70px;
+}
+main div article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 300px;
+  font-family: "Roboto", sans-serif;
+  color: #1ab3ff;
+  border: 1px solid #1ab3ff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px #1ab3ff;
+  transition: 0.3s;
+}
+main div article h2 {
+  font-size: 40px;
+}
+main div article figure {
+  font-size: 80px;
+  margin: 20px;
+}
+main div article p {
+  font-size: 20px;
+  text-align: center;
+}
+main div article:hover {
+  background-color: #eee;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=estilos.css.map */
